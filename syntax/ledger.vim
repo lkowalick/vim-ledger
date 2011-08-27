@@ -26,7 +26,7 @@ syn match transDate	"\d\{2}\/\d\{1,2}" contained
 syn match transDate "\d\{4}\/\d\{1,2}\/\d\{1,2}\ \
 			\d\{1,2}:\d\{2}:\d\{2}" contained
 syn match transClear "\*" contained
-syn match Dollars "\$\-\=\d*\.\d\{2,}" contained
+syn match Dollars "\-\=\$\d\+\(,\d\{,3}\)*\.\d\d" contained
 syn match comments "^;.*$"
 syn match comments ";.*$" contained
 
