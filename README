@@ -1,3 +1,7 @@
-This is a mirror of http://www.vim.org/scripts/script.php?script_id=1155
+This is based off of http://www.vim.org/scripts/script.php?script_id=1155
 
-Highlights the syntax for Ledger (http://ledger.sourceforge.net/) command line accounting package.
+Currently, this highlights syntax for the ledger accounting program in vim.
+
+To install with pathogen, in .vim/bundle/, type
+
+clone git://github.com/rkowalick/vim-ledger.git
