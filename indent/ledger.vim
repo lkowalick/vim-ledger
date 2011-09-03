@@ -19,7 +19,7 @@ function LedgerIndent()
 		return 0
 	endif
 	let lnum = v:lnum - 1
-	if getline(lnum) =~ '^\d\+' || getline(lnum).indent != 0
+	if getline(lnum) =~ '^\d\+' || indent(lnum) != 0
 		return &sw 
 	endif
 	return 0
